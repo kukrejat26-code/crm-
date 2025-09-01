@@ -206,14 +206,14 @@ with tab1:
         order_by = st.selectbox(
             "Order by",
             options=[
-                "created_at DESC",
-                "created_at ASC",
-                "updated_at DESC",
-                "updated_at ASC",
-                "value DESC",
-                "value ASC",
-                "name ASC",
-                "name DESC",
+                "created_at new lead",
+                "created_at last lead",
+                "updated_at new lead",
+                "updated_at last lead",
+                "value high lead",
+                "value lowest lead",
+                "name reverse a-z",
+                "name A-Z",
             ],
             index=0,
         )
